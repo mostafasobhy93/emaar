@@ -784,7 +784,7 @@ header nav .toggle-menu.active .toggle-bar::after {
     CTA Section
 ***/
 .cta-section {
-    background: url(../img/marina-bay-building.jpg);
+    background: url(../img/cta-bg.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
