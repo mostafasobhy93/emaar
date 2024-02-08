@@ -12,8 +12,6 @@ html {
     overflow-x: hidden;
 }
 body {
-    overflow-y: scroll;
-    overflow-x: hidden;
     color: #081b3a;
 }
 
