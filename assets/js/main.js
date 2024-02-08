@@ -3,7 +3,7 @@ $(document).ready(function () {
 
 //    Loader
     $(window).on('load', function (event) {
-		$('#preloader').delay(1500).fadeOut(500);
+		$('#preloader').delay(1000).fadeOut(500);
 	});
     
 // sticky header
