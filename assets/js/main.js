@@ -3,7 +3,7 @@ $(document).ready(function () {
 
 //    Loader
     $(window).on('load', function (event) {
-		$('#preloader').delay(500).fadeOut(500);
+		$('#preloader').delay(1000).fadeOut(500);
 	});
     
 // sticky header
@@ -90,6 +90,17 @@ $(document).ready(function () {
                 items: 4,
             }
         }
+    });
+
+// Products Slider
+    $(".product-details-section .products-slider").owlCarousel({
+        loop:true,
+		margin: 30,
+		items: 1,
+		nav: false,
+		autoplay: true,
+		smartSpeed: 1500,
+		dots:true, 
     });
     
     
